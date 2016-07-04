@@ -1,0 +1,21 @@
+#! /bin/bash
+
+#installer
+if [[ $1 == "-i" ]]; then
+sudo apt-get install $2
+fi
+
+#updater
+if [[ $1 == "-u" ]]; then
+sudo apt-get update
+fi
+
+#upgrade
+if [[ $1 == "-U" ]]; then
+sudo apt-get upgrade
+fi
+
+#fix missing packages if needed
+if [[ $1 == "-f" ]]; then
+sudo apt-get update --fix-missing
+fi
