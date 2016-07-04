@@ -1,0 +1,6 @@
+{
+  "name": "Faire",
+  "tagline": "An apt-get frontend for the lazy.",
+  "body": "### Faire\r\n## An apt-get frontend for the lazy.\r\n\r\n# Overview\r\nWelcome to Faire. Faire is an apt-get frontend for the lazy. all you have to do is type in `chmod +x install.sh && ./install.sh` and the work is done. Now all you have to type is `faire -i <package>` and wait. Get a snack or go to the bathroom if you need. The work is being done for you. Look at this site. Look at how lazily this is made. This is the whole concept of Faire. To make everything as easy as possible.",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
