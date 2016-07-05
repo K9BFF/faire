@@ -19,3 +19,12 @@ fi
 if [[ $1 == "-f" ]]; then
 sudo apt-get update --fix-missing
 fi
+
+#display help
+if [[ $1 == "-h" ]];then
+echo -e "-i <package> - Installs packages"
+echo -e "-u - Updates packages"
+echo -e "-U - Upgrades packages (case sensitive)"
+echo -e "-f - Fixes missing packages"
+echo -e "-h - Shows this help"
+fi
