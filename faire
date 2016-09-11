@@ -25,6 +25,11 @@ if [[ $1 == "-p" ]]; then
 pip install $2
 fi
 
+#git clone
+if [[ $1 == "-g"]]; then
+git clone $2
+fi
+
 #display help
 if [[ $1 == "-h" ]];then
 echo -e "-i <package> - Installs packages"
