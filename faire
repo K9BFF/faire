@@ -25,6 +25,11 @@ if [[ $1 == "-p" ]]; then
 pip install $2
 fi
 
+#apt-cache search
+if [[ $1 == "-s" ]]; then
+sudo apt-cache search $2
+fi
+
 #git clone
 #nope.avi
 
@@ -32,6 +37,7 @@ fi
 if [[ $1 == "-h" ]];then
 echo -e "-i <package> - Installs packages"
 echo -e "-p <module> - Performs 'pip install'"
+echo -e "-s <keyword> - Searches for packages using the specified keyword"
 echo -e "-u - Updates packages"
 echo -e "-U - Upgrades packages (case sensitive)"
 echo -e "-f - Fixes missing packages"
