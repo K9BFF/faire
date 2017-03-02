@@ -1,2 +1,2 @@
 # faire
-projects dead
+projects dead-ish
