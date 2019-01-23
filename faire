@@ -31,6 +31,11 @@ echo -e "Searching..."
 sudo apt-cache search $2
 fi
 
+#npm install
+if [[ $1 == "-n" ]]; then
+sudo npm install $2
+fi
+
 #display help
 if [[ $1 == "-h" ]];then
 echo -e "-i <package> - Installs packages"
@@ -40,4 +45,5 @@ echo -e "-u - Updates packages"
 echo -e "-U - Upgrades packages (case sensitive)"
 echo -e "-f - Fixes missing packages"
 echo -e "-h - Shows this help"
+echo -e "-n - installs npm modules"
 fi
