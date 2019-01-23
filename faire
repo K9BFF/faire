@@ -45,5 +45,5 @@ echo -e "-u - Updates packages"
 echo -e "-U - Upgrades packages (case sensitive)"
 echo -e "-f - Fixes missing packages"
 echo -e "-h - Shows this help"
-echo -e "-n - installs npm modules"
+echo -e "-n - Installs npm modules"
 fi
